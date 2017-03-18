@@ -1,3 +1,7 @@
-{
-  "extends": "airbnb"
-}
+---
+"extends":
+  - "walmart"
+
+---
+"extends":
+  - "walmart/configurations/es6-browser"
