@@ -9,10 +9,13 @@ module.exports = {
         exclude: [/node_modules/],
         loader: 'babel-loader',
       },
+      { test: /\.styl$/,
+        loader: 'style-loader!css-loader!stylus-loader'
+      }
     ],
   },
   resolve: {
-    extensions: ['.js', '.es6', '.jsx', '.css'],
+    extensions: ['.js', '.es6', '.jsx', '.styl'],
   },
   watch: true,
 };
