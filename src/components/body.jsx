@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import Accordian from "./accordian/accordian";
+import AccordionPage from "./accordion/accordion";
 import Header from "./header/header";
-import Summary from "./summary/summary";
-import Display from "./display/display";
-
+import SummaryDisplayContainer from "./summary-display";
 
 class Body extends Component {
   render() {
@@ -11,9 +9,11 @@ class Body extends Component {
     return (
       <div className="main">
         <Header />
-        <Accordian />
-        <Summary />
-        <Display />
+        <AccordionPage />
+        <div className="additional-input">
+          <input />
+        </div>
+        <SummaryDisplayContainer />
       </div>
     )
   }

@@ -3,7 +3,7 @@ import Body from "./components/body.connect"
 
 export const App = () => (
   <div>
-    <h1>App Page</h1>
+    <h1>Swole_Track</h1>
     <Body />
   </div>
 );

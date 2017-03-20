@@ -4,10 +4,9 @@ import NavBar from "../nav-bar/nav-bar";
 
 const Header = () => {
   return (
-    <div>
-      <h4>Header</h4>
-      <SignIn />
+    <div className="header"> 
       <NavBar />
+      <SignIn />
     </div>
   )
 };
